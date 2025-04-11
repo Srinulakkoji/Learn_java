@@ -25,8 +25,6 @@ public class StreamsIntro {
                 .collect(Collectors.toList());
         System.out.println(namesfilter+" is filtered");
 
-        List<String> list1 = Arrays.asList("A","B","C","D");
-        List<String> list2 = Arrays.asList("C","D","E","F");
 
         List<String> nums = Arrays.asList("2","4","1","7");
         IntStream numsStream = nums.stream().mapToInt((String val) -> Integer.parseInt(val));
