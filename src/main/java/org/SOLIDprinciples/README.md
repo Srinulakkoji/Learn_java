@@ -1,3 +1,5 @@
+SOLID Principles 
+
 Single responsibility principle:
 It states that every java class must perform a single functionality. 
 Implementation of multiple functionalities in a single class mashup the code.
@@ -16,7 +18,6 @@ It states that according to new requirements, the module should be open for exte
 notification service class as Interface so others can extend for any further extensions
 also we will close for modification
 2) Now create a separate class to implement methods then we can satisfy these OCP principles
-
 Here notification service is bound to email and mobile, but in future it might be extended to 
 
 Liskov substitution Principle:
@@ -33,6 +34,10 @@ implementation according to the compatibility
 
 
 Interface Segregation Principle:
+It is also similar to the SRP. Larger interfaces are split into smaller ones. Because the implementation
+classes use only the methods that they do not want to use
 
 Dependency Inversion principle:
-
+The principle states that we must use abstraction instead of concrete implementations
+High level modules should not depend on the low level module, but both should depend on
+the abstraction
